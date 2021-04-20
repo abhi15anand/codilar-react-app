@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  margin-top: 30px;
 }
 
 .App-logo {
@@ -35,4 +37,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 5px 0;
+  font-weight: bold;;
+}
+
+#left-hand-component {
+  text-align: left;
+}
+
+.component {
+  flex-basis: 50%;
+  border: 1px solid black;
+  min-height: 500px;
+  padding: 30px;
+}
+
+.button-container {
+  margin-bottom: 30px;
+}
+
+.add-root-button {
+  outline: none;
+  background-color: black;
+  color: white;
+  padding: 5px 15px;
+  cursor: pointer;
 }
